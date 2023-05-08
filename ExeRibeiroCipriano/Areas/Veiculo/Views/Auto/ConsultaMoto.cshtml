@@ -1,0 +1,13 @@
+﻿@model ExeRibeiroCipriano.Models.Moto
+
+@{
+    ViewBag.Title = "ConsultaMoto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="centered">
+    <h2>Moto</h2>
+    <img src="~/Imagens/kk.jpeg" width="700" height="500"/>
+    <p><b>@Model.fabricante / @Model.categoria / @Model.cilindrada cc / @Model.transmissao</b></p>
+</main>
+

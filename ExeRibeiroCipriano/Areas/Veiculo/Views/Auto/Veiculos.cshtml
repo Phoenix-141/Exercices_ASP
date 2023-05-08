@@ -1,0 +1,20 @@
+﻿@model Tuple<ExeRibeiroCipriano.Models.Carro, ExeRibeiroCipriano.Models.Moto>
+
+
+@{
+    ViewBag.Title = "Veiculos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="centred">
+
+    <h2>Veiculos</h2>
+    <img src="~/Imagens/kk.jpeg" width="700" height="500" />
+    <p><b>@Model.Item2.fabricante / @Model.Item2.categoria / @Model.Item2.cilindrada cc / @Model.Item2.transmissao</b></p>
+    <img src="~/Imagens/jaguar.jpg" />
+    <p><b>@Model.Item1.fabricante / @Model.Item1.tipo / @Model.Item1.nome / @Model.Item1.transmissao</b></p>
+
+</main>
+
+
+

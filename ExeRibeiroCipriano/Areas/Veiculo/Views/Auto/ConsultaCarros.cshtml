@@ -1,0 +1,12 @@
+﻿@model ExeRibeiroCipriano.Models.Carro
+
+@{
+    ViewBag.Title = "CosultaCarros";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="centered">
+    <h2>Carros</h2>
+    <img src="~/Imagens/jaguar.jpg"/>
+    <p><b>@Model.fabricante / @Model.tipo / @Model.nome / @Model.transmissao</b></p>
+</main>
